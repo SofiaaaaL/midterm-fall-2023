@@ -1,0 +1,45 @@
+.DogCard {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 50px 70px;
+    max-height: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+.DogInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.DogInfo p {
+    margin-bottom: 10px;
+}
+
+.DogImg {
+    width: 15%;
+    object-fit: cover;
+}
+
+.DogImg img{
+    aspect-ratio: 1;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+.Joke {
+    margin: 50px 70px;
+}
+
+.Joke h2{
+    margin-bottom: 20px;
+}
+
+.Joke p{
+    font-size: 20px;
+}
